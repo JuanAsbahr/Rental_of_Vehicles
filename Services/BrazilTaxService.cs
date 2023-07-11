@@ -3,7 +3,7 @@ namespace Rental_of_Vehicles.Services
 {
     internal class BrazilTaxService
     {
-        public double Tax (double amount)
+        public double Tax(double amount)
         {
             if (amount <= 100.0)
             {
@@ -13,7 +13,7 @@ namespace Rental_of_Vehicles.Services
             {
                 return amount * 0.15;
             }
-            
+
         }
     }
 }
