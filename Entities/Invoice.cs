@@ -19,11 +19,11 @@ namespace Rental_of_Vehicles.Entities
 
         public override string ToString()
         {
-            return "Basic Payment: "
+            return "Basic Payment: $"
                 + BasicPayment.ToString("F2", CultureInfo.InvariantCulture)
-                + "\nTax: $ "
+                + "\nTax: $"
                 + Tax.ToString("F2", CultureInfo.InvariantCulture)
-                + "\nTotal Payment: $ "
+                + "\nTotal Payment: $"
                 + TotalPayment.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
